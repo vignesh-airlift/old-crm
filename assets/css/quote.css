@@ -1,0 +1,50 @@
+.container-list {
+    display: grid;
+    grid-template-rows: 10% 60% 20%;
+    height: 100vh;
+  }
+  
+  .method-container {
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+  }
+  
+  .sub-title-name {
+    font-size: 20px;
+  }
+  
+  .field-space {
+    margin-right:20px;
+  }
+  
+  .icon {
+    width: 33px;
+  }
+  
+  .width-small {
+    width: 75px
+  }
+  .left-space{
+    margin-left: 20px;
+  }
+  
+  .inline-container {
+    position: relative;
+    display: inline;
+  }
+  
+  .inline-container p {
+    position: absolute;
+    display: inline;
+    bottom: 32px;
+    width: 100%;
+  }
+  
+  .width-medium {
+    width: 15%;
+  }
+  
+  .list {
+    padding-top: 20px;
+  }
+  

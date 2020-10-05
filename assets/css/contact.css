@@ -1,0 +1,61 @@
+.img {
+    height: 60px;
+    width: 60px;
+}
+
+.p-img {
+    margin: 0px;
+}
+
+.company-name {
+    font-size: 16px;
+    margin: 10px 0px;
+    /* font-weight: bold; */
+    letter-spacing: 0.2px;
+}
+
+.icon-bg {
+    background: #0093dd0d;
+    padding: 9px;
+    border-radius: 50%;
+    color: var(--color-primary);
+}
+
+.info-span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 10px 0px;
+    justify-content: center;
+    vertical-align: sub;
+    padding-left: 10px;
+}
+
+.img-align {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.hr-line {
+    margin: 0px;
+    background: #e1e1e1;
+    height: 3px;
+    width: 30%;
+    text-align: center;
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    color: inherit;
+}
+
+.info-content {
+    padding: 20px;
+}
+
+.right {
+    float: right;
+}

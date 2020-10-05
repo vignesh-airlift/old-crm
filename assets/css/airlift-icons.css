@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'airlift';
+  src:  url('../fonts/airlift.eot?k3iph4');
+  src:  url('../fonts/airlift.eot?k3iph4#iefix') format('embedded-opentype'),
+    url('../fonts/airlift.ttf?k3iph4') format('truetype'),
+    url('../fonts/airlift.woff?k3iph4') format('woff'),
+    url('../fonts/airlift.svg?k3iph4#airlift') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="alu-"], [class*=" alu-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'airlift' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alu-activity-immediate:before {
+  content: "\e904";
+  color: #74849a;
+}
+.alu-activity-overdue:before {
+  content: "\e905";
+  color: #74849a;
+}
+.alu-activity-upcoming:before {
+  content: "\e906";
+  color: #74849a;
+}
+.alu-activity-today:before {
+  content: "\e907";
+  color: #74849a;
+}
+.alu-sales-lead:before {
+  content: "\e901";
+  color: #74849a;
+}
+.alu-pre-lead:before {
+  content: "\e903";
+  color: #74849a;
+}
+.alu-add:before {
+  content: "\e900";
+  color: #74849a;
+}
+.alu-contacts:before {
+  content: "\e902";
+  color: #74849a;
+}
+.alu-companies:before {
+  content: "\e910";
+  color: #74849a;
+}
+.alu-activities:before {
+  content: "\e912";
+  color: #74849a;
+}
+.alu-dashboard:before {
+  content: "\e91c";
+  color: #74849a;
+}
+.alu-access-control:before {
+  content: "\e928";
+  color: #74849a;
+}
+.alu-profile:before {
+  content: "\e92a";
+  color: #74849a;
+}
+.alu-logout:before {
+  content: "\e92e";
+}
